@@ -1,4 +1,6 @@
 import React from 'react'
+import climbImg from '../assets/images/02climb.png'
+import schedule from '../assets/images/schedule-content.png'
 
 const Team = () => {
   return (
@@ -17,7 +19,7 @@ const Team = () => {
         </div>
       </div>
 
-      <div class="tab-container text-white">
+      <div class="tab-container">
         <ul class="nav nav-tabs" id="myTab" role="tablist">
           <li class="nav-item" role="presentation">
             <button class="nav-link active" id="mountain1-tab" data-bs-toggle="tab" data-bs-target="#mountain1"

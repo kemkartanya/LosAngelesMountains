@@ -1,5 +1,9 @@
 import React from 'react'
 
+import historyImg from '../assets/images/01history.png';
+import thumb1 from '../assets/images/thumb1.png';
+import thumb2 from '../assets/images/thumb2.png';
+
 const History = () => {
   return (
     <div>

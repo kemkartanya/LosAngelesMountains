@@ -1,16 +1,17 @@
 import './App.css';
 import React from 'react';
 
-import mountainImg0 from './images/LaBanner.png'
-import bannerImg from './images/bannerText.png'
-import logo from './images/logo.png'
-import historyImg from './images/01history.png';
-import thumb1 from './images/thumb1.png';
-import thumb2 from './images/thumb2.png';
-import losangeles_mountains from './images/LOSANGELES MOUNTAINS.png'
-import logo_wMountains from './images/Logo_wMountains.png'
-import climbImg from './images/02climb.png'
-import schedule from './images/schedule-content.png'
+import mountainImg0 from './assets/images/LaBanner.png'
+import bannerImg from './assets/images/bannerText.png'
+import logo from './assets/images/logo.png'
+
+import losangeles_mountains from './assets/images/LOSANGELES MOUNTAINS.png'
+import logo_wMountains from './assets/images/Logo_wMountains.png'
+
+
+import History from './components/History';
+import Team from './components/Team';
+import Footer from './components/Footer'; 
 
 const App = () => {
   return (
@@ -25,7 +26,7 @@ const App = () => {
             <strong><em>01. History</em></strong>
           </a>
           <a href="#climb-section" className="navbar-link">
-            <strong><em>02. Team</em></strong>
+            <strong><em>02. Team</em></strong>4 
           </a>
         </nav>
       </section>
