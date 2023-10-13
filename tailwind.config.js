@@ -1,18 +1,16 @@
-module.exports = {
-  purge: ['./src/**/*.html', './src/**/*.js'],
-  darkMode: false, // or 'media' or 'class'
-  theme: {
-    extend: {
-      backgroundColor: {
-        'primary-color': '#414f6b',
-      },
-      textColor: {
-        'primary-color': '#414f6b',
-      },
+export const purge = ['./src/**/*.html', './src/**/*.js'];
+export const darkMode = false;
+export const theme = {
+  extend: {
+    backgroundColor: {
+      'primary-color': '#414f6b',
+    },
+    textColor: {
+      'primary-color': '#414f6b',
     },
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
-}
+};
+export const variants = {
+  extend: {},
+};
+export const plugins = [];

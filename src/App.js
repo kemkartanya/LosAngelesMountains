@@ -11,7 +11,6 @@ import logo_wMountains from './assets/images/Logo_wMountains.png'
 
 import History from './components/History';
 import Team from './components/Team';
-import Footer from './components/Footer'; 
 
 const App = () => {
   return (
@@ -26,7 +25,7 @@ const App = () => {
             <strong><em>01. History</em></strong>
           </a>
           <a href="#climb-section" className="navbar-link">
-            <strong><em>02. Team</em></strong>4 
+            <strong><em>02. Team</em></strong>
           </a>
         </nav>
       </section>
@@ -51,8 +50,6 @@ const App = () => {
       <History />
 
       <Team />
-
-      <Footer />
     </div>
   );
 };

@@ -261,14 +261,14 @@ html {
 }
 
 .tab-bg1 {
-  background: url('./assets/images/tab1.png') no-repeat;
+  background: url('assets/images/tab1.png') no-repeat;
   background-size: cover;
   height: 80%;
   position: relative;
   background-position: bottom;
 }
 .tab-bg2 {
-  background: url('./assets/images/tab2.png') no-repeat;
+  background: url('assets/images/tab2.png') no-repeat;
   background-size: cover;
   height: 100%;
   position: relative;
@@ -341,7 +341,7 @@ html {
   width: 100%;
   position: relative;
   bottom: 0;
-  /* background-color: var(--primary-color); */
+  background-color: var(--primary-color);
   display: flex;
 }
 
@@ -476,10 +476,10 @@ html {
     height: 14vh;
   }
 
-  /* .accordion {
+  .accordion {
     height: 20rem;
     width: 100%;
-  } */
+  }
 
   .climb-text {
     width: 40%;
@@ -533,13 +533,13 @@ html {
   }
 
   .accordion-bg1 {
-    background: url('./assets/images/tab1.png') no-repeat;
+    background: url('assets/images/tab1.png') no-repeat;
     background-size: cover;
     height: 80%;
     background-position: bottom;
   }
   .accordion-bg2 {
-    background: url('./assets/images/tab2.png') no-repeat;
+    background: url('assets/images/tab2.png') no-repeat;
     background-size: cover;
     height: 100%;
     background-position: bottom;
